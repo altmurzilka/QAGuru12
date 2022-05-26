@@ -29,8 +29,8 @@ extension Card {
   }
 
   static func fetch() -> NSFetchRequest<Card> {
-    let request = NSFetchRequest<Card>(entityName: "Card")
-    request.sortDescriptors = [NSSortDescriptor(key: "order", ascending: true)]
+    let request = NSFetchRequest<Card>(entityName: "Card new card ololo")
+    request.sortDescriptors = [NSSortDescriptor(key: "order new order", ascending: true)]
 
     return request
   }
