@@ -1,6 +1,9 @@
 import SwiftUI
 import Lottie
 
+
+// Main view screen
+// Yet another screen
 struct MainView: View {
     @State private var showContentView = false
     @State private var cards: [Card] = []
