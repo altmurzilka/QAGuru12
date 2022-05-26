@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460280C526AFE244007ADE01 /* FlashcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460280C426AFE244007ADE01 /* FlashcardsApp.swift */; };
+		460280C726AFE244007ADE01 /* FlashCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460280C626AFE244007ADE01 /* FlashCardsView.swift */; };
+		460280C926AFE245007ADE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460280C826AFE245007ADE01 /* Assets.xcassets */; };
+		460280CC26AFE245007ADE01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460280CB26AFE245007ADE01 /* Preview Assets.xcassets */; };
+		460280D626B21303007ADE01 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460280D526B21303007ADE01 /* CardView.swift */; };
+		460280D826B28D1A007ADE01 /* EditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460280D726B28D1A007ADE01 /* EditCardsView.swift */; };
+		462EBD12272610E3004AB8A5 /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462EBD11272610E3004AB8A5 /* CustomViewModifier.swift */; };
+		463313972723DD8800AB7239 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463313962723DD8800AB7239 /* MainView.swift */; };
+		46336E9026B6310900B54CF5 /* CardDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46336E8F26B6310900B54CF5 /* CardDeckView.swift */; };
+		464EE3EE2722D84D0014B2D9 /* CreateDeckAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EE3ED2722D84D0014B2D9 /* CreateDeckAlert.swift */; };
+		4651CD6027060DCA00977426 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4651CD5F27060DCA00977426 /* Persistence.swift */; };
+		465B083E2710388D00725237 /* ImportTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465B083D2710388D00725237 /* ImportTextView.swift */; };
+		467738772702EBD400D80D73 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 467738752702EBD400D80D73 /* Model.xcdatamodeld */; };
+		467738792702F5BC00D80D73 /* Card+DeckExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467738782702F5BC00D80D73 /* Card+DeckExtension.swift */; };
+		B488285A9084037DA2B3FD4F /* Pods_Flashcards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13AF65FE07051173B785EF1 /* Pods_Flashcards.framework */; };
+		F112790C28352DA2000EE39C /* splash.json in Resources */ = {isa = PBXBuildFile; fileRef = F112790B28352DA2000EE39C /* splash.json */; };
+		F112790E28352EC1000EE39C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112790D28352EC1000EE39C /* SplashScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		460280C126AFE244007ADE01 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		460280C426AFE244007ADE01 /* FlashcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsApp.swift; sourceTree = "<group>"; };
+		460280C626AFE244007ADE01 /* FlashCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsView.swift; sourceTree = "<group>"; };
+		460280C826AFE245007ADE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		460280CB26AFE245007ADE01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		460280CD26AFE245007ADE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460280D526B21303007ADE01 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		460280D726B28D1A007ADE01 /* EditCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardsView.swift; sourceTree = "<group>"; };
+		462EBD11272610E3004AB8A5 /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
+		463313962723DD8800AB7239 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		46336E8F26B6310900B54CF5 /* CardDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeckView.swift; sourceTree = "<group>"; };
+		464EE3ED2722D84D0014B2D9 /* CreateDeckAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDeckAlert.swift; sourceTree = "<group>"; };
+		4651CD5F27060DCA00977426 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		465B083D2710388D00725237 /* ImportTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportTextView.swift; sourceTree = "<group>"; };
+		467738762702EBD400D80D73 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		467738782702F5BC00D80D73 /* Card+DeckExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+DeckExtension.swift"; sourceTree = "<group>"; };
+		C13AF65FE07051173B785EF1 /* Pods_Flashcards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flashcards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F112790B28352DA2000EE39C /* splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = splash.json; path = ../../../Downloads/splash.json; sourceTree = "<group>"; };
+		F112790D28352EC1000EE39C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		F1EF78EC46C87CF1F1F0DECC /* Pods-Flashcards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashcards.debug.xcconfig"; path = "Target Support Files/Pods-Flashcards/Pods-Flashcards.debug.xcconfig"; sourceTree = "<group>"; };
+		F3797B47D690C75D2C436B1A /* Pods-Flashcards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashcards.release.xcconfig"; path = "Target Support Files/Pods-Flashcards/Pods-Flashcards.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460280BE26AFE244007ADE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B488285A9084037DA2B3FD4F /* Pods_Flashcards.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C40A8138DE1D1CB2ACA7ED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1EF78EC46C87CF1F1F0DECC /* Pods-Flashcards.debug.xcconfig */,
+				F3797B47D690C75D2C436B1A /* Pods-Flashcards.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		460280B826AFE244007ADE01 = {
+			isa = PBXGroup;
+			children = (
+				460280C326AFE244007ADE01 /* Flashcards */,
+				460280C226AFE244007ADE01 /* Products */,
+				3C40A8138DE1D1CB2ACA7ED7 /* Pods */,
+				83CF716E9AA676338BFD3D3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		460280C226AFE244007ADE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460280C126AFE244007ADE01 /* Flashcards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460280C326AFE244007ADE01 /* Flashcards */ = {
+			isa = PBXGroup;
+			children = (
+				F112790B28352DA2000EE39C /* splash.json */,
+				460280C426AFE244007ADE01 /* FlashcardsApp.swift */,
+				4651CD5F27060DCA00977426 /* Persistence.swift */,
+				F112790D28352EC1000EE39C /* SplashScreen.swift */,
+				463313962723DD8800AB7239 /* MainView.swift */,
+				467738782702F5BC00D80D73 /* Card+DeckExtension.swift */,
+				466502A8272517E60035F3D9 /* FlashCardsView */,
+				466502A92725184C0035F3D9 /* Select+EditCardDeckView */,
+				467738752702EBD400D80D73 /* Model.xcdatamodeld */,
+				460280C826AFE245007ADE01 /* Assets.xcassets */,
+				460280CD26AFE245007ADE01 /* Info.plist */,
+				460280CA26AFE245007ADE01 /* Preview Content */,
+			);
+			path = Flashcards;
+			sourceTree = "<group>";
+		};
+		460280CA26AFE245007ADE01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				460280CB26AFE245007ADE01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		466502A8272517E60035F3D9 /* FlashCardsView */ = {
+			isa = PBXGroup;
+			children = (
+				460280C626AFE244007ADE01 /* FlashCardsView.swift */,
+				460280D526B21303007ADE01 /* CardView.swift */,
+				462EBD11272610E3004AB8A5 /* CustomViewModifier.swift */,
+			);
+			path = FlashCardsView;
+			sourceTree = "<group>";
+		};
+		466502A92725184C0035F3D9 /* Select+EditCardDeckView */ = {
+			isa = PBXGroup;
+			children = (
+				46336E8F26B6310900B54CF5 /* CardDeckView.swift */,
+				460280D726B28D1A007ADE01 /* EditCardsView.swift */,
+				465B083D2710388D00725237 /* ImportTextView.swift */,
+				464EE3ED2722D84D0014B2D9 /* CreateDeckAlert.swift */,
+			);
+			path = "Select+EditCardDeckView";
+			sourceTree = "<group>";
+		};
+		83CF716E9AA676338BFD3D3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13AF65FE07051173B785EF1 /* Pods_Flashcards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460280C026AFE244007ADE01 /* Flashcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460280D026AFE245007ADE01 /* Build configuration list for PBXNativeTarget "Flashcards" */;
+			buildPhases = (
+				8916794A1462FEA1315F7620 /* [CP] Check Pods Manifest.lock */,
+				460280BD26AFE244007ADE01 /* Sources */,
+				460280BE26AFE244007ADE01 /* Frameworks */,
+				460280BF26AFE244007ADE01 /* Resources */,
+				F175A5B3C272BF888C56E9D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flashcards;
+			productName = Flashzilla;
+			productReference = 460280C126AFE244007ADE01 /* Flashcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460280B926AFE244007ADE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					460280C026AFE244007ADE01 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 460280BC26AFE244007ADE01 /* Build configuration list for PBXProject "Flashcards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460280B826AFE244007ADE01;
+			productRefGroup = 460280C226AFE244007ADE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460280C026AFE244007ADE01 /* Flashcards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460280BF26AFE244007ADE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460280CC26AFE245007ADE01 /* Preview Assets.xcassets in Resources */,
+				F112790C28352DA2000EE39C /* splash.json in Resources */,
+				460280C926AFE245007ADE01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8916794A1462FEA1315F7620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flashcards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F175A5B3C272BF888C56E9D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flashcards/Pods-Flashcards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flashcards/Pods-Flashcards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flashcards/Pods-Flashcards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460280BD26AFE244007ADE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460280C726AFE244007ADE01 /* FlashCardsView.swift in Sources */,
+				463313972723DD8800AB7239 /* MainView.swift in Sources */,
+				460280D826B28D1A007ADE01 /* EditCardsView.swift in Sources */,
+				464EE3EE2722D84D0014B2D9 /* CreateDeckAlert.swift in Sources */,
+				467738772702EBD400D80D73 /* Model.xcdatamodeld in Sources */,
+				467738792702F5BC00D80D73 /* Card+DeckExtension.swift in Sources */,
+				460280D626B21303007ADE01 /* CardView.swift in Sources */,
+				F112790E28352EC1000EE39C /* SplashScreen.swift in Sources */,
+				460280C526AFE244007ADE01 /* FlashcardsApp.swift in Sources */,
+				46336E9026B6310900B54CF5 /* CardDeckView.swift in Sources */,
+				465B083E2710388D00725237 /* ImportTextView.swift in Sources */,
+				462EBD12272610E3004AB8A5 /* CustomViewModifier.swift in Sources */,
+				4651CD6027060DCA00977426 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		460280CE26AFE245007ADE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		460280CF26AFE245007ADE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460280D126AFE245007ADE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EF78EC46C87CF1F1F0DECC /* Pods-Flashcards.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flashcards/Preview Content\"";
+				DEVELOPMENT_TEAM = BV68V66Y4K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Flashcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koupen.HackingWithSwift.Flashzilla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460280D226AFE245007ADE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3797B47D690C75D2C436B1A /* Pods-Flashcards.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flashcards/Preview Content\"";
+				DEVELOPMENT_TEAM = BV68V66Y4K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Flashcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.koupen.HackingWithSwift.Flashzilla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460280BC26AFE244007ADE01 /* Build configuration list for PBXProject "Flashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460280CE26AFE245007ADE01 /* Debug */,
+				460280CF26AFE245007ADE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460280D026AFE245007ADE01 /* Build configuration list for PBXNativeTarget "Flashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460280D126AFE245007ADE01 /* Debug */,
+				460280D226AFE245007ADE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		467738752702EBD400D80D73 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				467738762702EBD400D80D73 /* Model.xcdatamodel */,
+			);
+			currentVersion = 467738762702EBD400D80D73 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 460280B926AFE244007ADE01 /* Project object */;
+}
